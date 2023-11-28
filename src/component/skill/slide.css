@@ -1,0 +1,141 @@
+#Project{
+
+}
+.feature-projet{
+    /* // backgroundImage: `url("assets/fond1.png")`,
+    // backgroundSize: "cover",
+    // backgroundRepeat: "no-repeat", */
+    height:"100vh",
+}
+.feature-projet h1{
+
+    font-weight: bold;
+    text-align: center;
+    padding-top: 6%;
+    color: black;
+    font-size: 60px;
+ 
+}
+
+.hot-project{
+
+    width: 80%;
+    background: #e09f9f7c;
+    background: #108cb924;
+    height: 50%;
+    margin-left: 9%;
+    padding: 1%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.hot-project .preview img,
+.hot-project .Next img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.hot-container{
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+  
+    
+}
+.hot-gauche{
+    width: 590px;
+    height: 400px;
+    object-fit: cover;
+}
+.hot-gauche img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* .hot-container img{
+width: 100%;
+object-fit: cover;
+box-sizing: border-box;
+
+} */
+.hot-droite{
+    width: 350px;
+    height: 100%;
+    padding: 2%;
+    margin-right: 4%;
+    text-align: left;
+    transition: ease-in-out all 2s;
+
+}
+.hot-droite .btn-cv{
+    width: 150px;
+    padding: 2%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.hot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    padding: 2%;
+
+}
+.hot-titre{
+ 
+  /* width: 50%;
+  color:var(--vert1);
+  font-weight: bold;
+  font-size: 29px;
+  transition: ease-in-out all 2s; */
+}
+
+
+@media screen and (max-width: 428px) {
+
+    #Project{
+        padding-top: 20%;
+    }
+
+.feature-projet{
+    padding: 4%;
+}
+.feature-projet h1{
+    font-size: 40px;
+}
+
+    br{
+        display: none;
+    }
+    .hot{
+        flex-direction: column;
+        
+    }
+    .hot-gauche{
+        max-width: 90%;
+        height: auto;
+        background: #1E1E1E;
+        
+    }
+    .hot-droite{
+        width: 85%;
+        height: auto;
+        text-align: left;
+        padding: 2%;
+    }
+    .hot-titre{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+    .hot-description{}
+}

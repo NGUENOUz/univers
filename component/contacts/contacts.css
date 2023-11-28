@@ -1,0 +1,115 @@
+.Contacts{
+    width: 80%;
+    margin-left: 9%;
+    padding: 2%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.Contacts h1{
+font-size: 60px;
+font-weight: bold;}
+.detail img{
+    padding: 1%;
+    border-radius: 50%;
+  
+   background: var(--vert1);
+    width: 20px;
+    height: 20px;
+}
+ .Contact-infos .detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    padding: 3%;
+    
+ }
+ .detail p{
+    padding: 3%;
+ }
+ .Contact-infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1%;
+ }
+ .Contacts .container{
+    width: 600px;
+    height: auto;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 12px;
+    
+
+ }
+ form{
+    margin-left: 10%;
+    padding-left: 6%;
+    border-left: 4px dotted rgb(39, 38, 38);
+    box-shadow: rgb(255, 255, 255) 0px 22px 70px 4px;
+ }
+form button{
+    
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 10%;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+    margin-left: 12%;
+}
+form .item{
+    padding-top: 2%;
+}
+input,textarea:focus{
+    outline: none;
+   
+}
+input{}
+
+
+
+
+@media screen and (max-width: 428px) {
+    .Contacts{
+        overflow: hidden;
+    }
+.Contacts h1{
+    padding-top: 2%;
+    font-size: 40px;
+}
+.Contacts h3{
+    display: flex;
+    text-align: center;
+}
+
+.container{
+    flex-direction: column-reverse;
+    flex-wrap:wrap ;
+    width: auto;
+    height: auto;
+    max-width: 400px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+.Contact-infos{
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+form{
+    margin-left: -5%;
+}
+
+
+
+}

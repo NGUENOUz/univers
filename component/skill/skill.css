@@ -1,0 +1,441 @@
+/* #Skill{
+    padding-top: 5%;
+}
+.Technical h1{
+    text-align: center;
+    font-weight: bold;
+    align-items: center;
+    color: white;
+
+    padding: 4%;
+}
+.T1,.progress-bar{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+.progress-bar{
+    width: 100%;
+    height: auto;
+}
+.progress-bar .name{
+    display: flex;
+    justify-content: space-between;
+
+}
+.progress-bar .bar-container{
+    background: #b3adad;
+    width: 100%;
+    height: 10px;
+    border-radius: 12px;
+}
+.bar-container .percentage-bar{
+    border-radius: 12px;
+    height: 100%;
+    background: var(--vert1);
+}
+.skills{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+    margin-left: 9%;
+}
+.skills .gauche{
+    width: 45%;
+    padding: 1%;
+}
+.skills .droite{
+border-radius: 12px;
+background: transparent;
+box-shadow: 2px 2px 9px black;
+text-align: center;
+color: white;
+padding: 2%;
+width: 40%;
+}
+
+.tools-cart-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2%;
+}
+.tools-cart{
+    margin-top: 1%;
+    width: 25%;
+    height:auto;
+    border-radius: 4px;
+    box-sizing: border-box 1px ;
+    padding: 2%;
+    object-fit: cover;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: transparent;
+    box-shadow: 2px 2px 4px var(--vert1);
+}
+.tools-cart span{
+    font-size: 12px;
+    text-align: center;
+}
+.tools-cart img{
+    
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+}
+
+@media screen and (max-width: 428px){
+    #Skill{
+        padding-top: 20%;
+    }
+    .skills{
+        flex-direction: column;
+    }
+    .skills .gauche {
+        width: 100%;
+    }
+    .gauche .Technical{
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .skills .droite{
+        width: 100%;
+    }
+    .tools-cart-container{
+        width: 95%;
+    }
+    
+} */
+
+
+
+
+/* Partie pour le cercle  */
+
+.box {
+    height: 496px;
+    position: relative;
+    width: 498px;
+  }
+  
+  .box .group {
+    border: 1px solid;
+    border-color: #000000;
+    border-radius: 249px/248px;
+    height: 496px;
+    left: 0;
+    top: 0;
+    width: 498px;
+    background: var(--vert1);
+ 
+  
+  }
+  
+  .box .overlap {
+    height: 382px;
+    left: 103px;
+    position: absolute;
+    top: 93px;
+    width: 362px;
+    
+  }
+  
+  .box .overlap-group {
+    height: 351px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 327px;
+    
+  }
+  
+  .box .ellipse {
+    /* background-color:var(--vert1); */
+    
+    border-radius: 146.5px/157.5px;
+    height: 315px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 293px;
+    box-shadow: rgba(50, 50, 93, 0.096) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.137) 0px 18px 36px -18px inset;
+  }
+  
+  .box .img {
+    height: 41px;
+    left: 249px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 52px;
+  }
+  
+  .box .ellipse-2 {
+    height: 41px;
+    left: 275px;
+    object-fit: cover;
+    position: absolute;
+    top: 269px;
+    width: 52px;
+  }
+  
+  .box .ellipse-3 {
+    height: 41px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 310px;
+    width: 52px;
+  }
+  
+  .box .overlap-group-wrapper {
+    height: 176px;
+    left: 32px;
+    position: absolute;
+    top: 75px;
+    width: 233px;
+  }
+  
+  .box .div {
+  
+    height: 176px;
+    position: relative;
+    width: 231px;
+
+  }
+  
+  .box .ellipse-4 {
+    height: 43px;
+    left: 89px;
+    object-fit: cover;
+    position: absolute;
+    top: 19px;
+    width: 52px;
+    border-radius: 50%;
+    
+  }
+  
+  .box .text-wrapper {
+    color: rgb(255, 255, 255);
+    font-family: "Chivo-Regular", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    left: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 75px;
+    width: 191px;
+  }
+  
+  .box .ellipse-5 {
+    height: 41px;
+    left: 310px;
+    object-fit: cover;
+    position: absolute;
+    top: 134px;
+    width: 52px;
+    background: #000;
+    border-radius: 50%;
+  }
+  
+  .box .ellipse-6 {
+    height: 41px;
+    left: 146px;
+    object-fit: cover;
+    position: absolute;
+    top: 341px;
+    width: 52px;
+    background: #000;
+    border-radius: 50%;
+  }
+  
+  .box .ellipse-7 {
+    height: 41px;
+    left: 40px;
+    object-fit: cover;
+    position: absolute;
+    top: 292px;
+    width: 52px;
+  }
+  
+  .box .ellipse-8 {
+    height: 41px;
+    left: 40px;
+    object-fit: cover;
+    position: absolute;
+    top: 157px;
+    width: 52px;
+  }
+  
+  .box .ellipse-9 {
+    height: 41px;
+    left: 126px;
+    object-fit: cover;
+    position: absolute;
+    top: 51px;
+    width: 52px;
+  }
+  
+  .box .ellipse-wrapper {
+   
+    border-radius: 38.5px/36.5px;
+    height: 73px;
+    left: 224px;
+    position: absolute;
+    top: 14px;
+    width: 77px;
+  }
+  
+  .box .ellipse-10 {
+    height: 41px;
+    left: 13px;
+    object-fit: cover;
+    position: absolute;
+    top: 16px;
+    width: 52px;
+  }
+  
+/* finde la partie pour le cercle   */
+
+.skills{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    width: 80%;
+    margin-left: 9%;
+    text-align: center;
+    align-items: center;
+    padding-top: 4%;
+}
+
+.skills .gauche{
+
+}
+.skills .gauche h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+.eclipse{
+  border-radius: 50%;
+  animation: 1s linear infinite alternate position,  5s linear infinite tour;
+}
+
+@keyframes position{
+  from{
+      transform: scale(0);
+      
+  }
+  to{
+    transform: scale(1.1);
+   
+
+  }
+}
+
+
+@media screen and (max-width: 428px) {
+
+  .skills{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+  }
+  .box {
+    height: 396px;
+  right: 72%;
+    width: 398px;
+  }
+  .box .group {
+   
+    height: 396px;
+    width: 398px;
+  }
+
+  .box .overlap {
+    height: 282px;
+    width: 262px;
+  }
+  .box .overlap {
+  
+  
+  
+  }
+  
+
+  .box .overap-group {
+    height: 251px;
+    width: 227px;
+  }
+
+  .box .ellipse {
+    /* background-color:var(--vert1); */
+    
+    border-radius: 146.5px/157.5px;
+    height: 215px;
+    left: 0;
+    position: absolute;
+    top: 5px;
+    width: 193px;
+    box-shadow: rgba(50, 50, 93, 0.096) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.137) 0px 18px 36px -18px inset;
+  }
+  .box .img {
+   left: 60%;
+   width: 40px;
+  }
+
+  .box .ellipse-2 {
+    height: 41px;
+    left: 195px;
+    top: 169px;
+    width: 42px;
+    
+  }
+  .box .ellipse-3 {
+    height: 41px;
+    left: 12%;
+
+    top:240px;
+    width: 42px;
+  }
+  .box .ellipse-5 {
+    height: 41px;
+    left: 220px;
+    top: 80px;
+    width: 42px;
+  }
+  .box .ellipse-6 {
+    height: 41px;
+    left: 140px;
+    top: 241px;
+    width: 42px;
+    background: #000;
+    border-radius: 50%;
+  }
+  
+
+
+  .text-wrapper{
+    display: none;
+  }
+  .box .ellipse-7 {
+    height: 41px;
+    left: 50px;
+    top: 280px;
+    width: 42px;
+  }
+  .skills .gauche h1{
+    font-size: 40px;
+  }
+  
+  
+}
