@@ -20,7 +20,7 @@ function Headers() {
       <div className="part-gauche">
   
      <ul>
-        <li><a href="" >Acceuil</a></li>
+        <li><a href="Acceuil" >Acceuil</a></li>
         <li><a href="#about">A propos</a></li>
         <li><a href="#Project">Projets</a></li>
         <li><a href="#Skill">Competences</a></li>
@@ -48,7 +48,7 @@ function Headers() {
    <header>
     <nav>
       <ul className='list'>
-        <li><a href="" >Acceuil</a></li>
+        <li><a href="#Acceuil" >Acceuil</a></li>
         <li><a href="#about">propos</a></li>
         <li><a href="#Project">Projets</a></li>
         <li><a href="#Skill">Competences</a></li>

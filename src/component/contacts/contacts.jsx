@@ -40,7 +40,7 @@ function Contacts() {
  
        .then((result) => {
            console.log(result.text);
-           console.log("message envoyer")
+           alert('Message envoyer ')
        }, (error) => {
            console.log(error.text);
        });

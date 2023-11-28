@@ -76,7 +76,7 @@ input{
     padding: 3%;
     border: none;
     border-radius: 12px;
-    box-shadow: rgb(255, 255, 255) 0px 22px 70px 4px;
+    box-shadow: rgba(150, 148, 148, 0.231) 0px 10px 30px 4px;
     border: 1px solid rgba(128, 128, 128, 0.107);
 }
 textarea{
@@ -84,7 +84,7 @@ textarea{
     border-radius: 12px;
     resize: none;
     padding: 2%;
-    box-shadow: rgb(255, 255, 255) 0px 22px 70px 4px;
+    box-shadow: rgba(150, 148, 148, 0.231) 0px 10px 30px 4px;
 }
 
 

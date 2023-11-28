@@ -75,7 +75,7 @@ const handlPause=()=>{
 
 
   return (
-<section className='homes'>
+<section className='homes' id='Acceui'>
    <div className="homes-container">
    <div className="left">
     <p><span className='crochet'>"</span><br />Il y'a rien de plus beau que de <br /> travailler avec passion </p>

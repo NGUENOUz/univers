@@ -48,7 +48,30 @@ const Hot=[
         image :"../assets/portfolio.png",
         lien:""
       },
-      
+      {
+        id: 7,
+        categorie: "Marketing Digitale",
+        titre: "WD BLOG",
+        description : "  WD BLOG : une source d'inspiration et de conseils pour se lancer en ligne  WD BLOG est l'une de mes pages sur laquelle je partage avec ma communauté des motivations, des conseils et des astuces pratiques qui peuvent les aider à se lancer en ligne  ",
+        image :"../assets/stat.jpg",
+        lien:""
+      },
+      {
+        id: 8,
+        categorie: "Developpement Web",
+        titre: "Garage-App",
+        description : "  Systeme de gestion de stock d'un garage  ",
+        image :"../assets/gestion_voiture.jpg",
+        lien:""
+      },
+      {
+        id: 9,
+        categorie: "Desygn",
+        titre: "Garage-App",
+        description : " Affiche publicitaire pour un client ",
+        image :"../assets/PIZZARIA.png",
+        lien:""
+      },
 ]
 console.log(Hot[1].image)
 
