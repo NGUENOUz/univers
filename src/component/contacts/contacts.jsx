@@ -13,6 +13,10 @@ function Contacts() {
     Message:''
   });
 
+  const valide= ()=>{
+    {!errors.Message && !errors.Name && !errors.Email && <span style={{color:"orange"}}>Message envoyer</span> }
+  }
+
   const [errors , setError]=useState({});
   
   const form = useRef();
@@ -25,28 +29,39 @@ function Contacts() {
       // ici on fait une copy de notre objet innitiale , on ajoute les nouvelle valeurs de nos input 
      const valueCopy={...values,[event.target.name]:event.target.value}
      setValue(valueCopy);
-   }
- 
-   const sendEmail = (e) => {
-     e.preventDefault();
- 
-      setError(validation(values))
-        
-     emailjs.sendForm('service_0nip0ds',
-      'template_3lczlhh',
-       form.current,
-        'qlkcyCJt1wVMZOuPF')
- 
- 
-       .then((result) => {
-           console.log(result.text);
-           alert('Message envoyer ')
-           form.current.reset;
-       }, (error) => {
-           console.log(error.text);
-       });
    };
+
+   const sendEmail = (e) => {
+    e.preventDefault();
+
+     setError(validation(values))
+       
+    emailjs.sendForm('service_0nip0ds',
+     'template_3lczlhh',
+      form.current,
+       'qlkcyCJt1wVMZOuPF')
+
+
+      .then((result) => {
+          console.log(result.text);
+        
+          // form.current[0].value="";
+          // form.current[1].value="";
+          // form.current[2].value="";
+
+          // if(!errors.Message && !errors.Name && !errors.Email){
+          //       form.current.reset();
+          // }
+          
+         
+      }, (error) => {
+          console.log(error.text);
+          
+      });
+  };
+
  
+  
 
 
 
@@ -73,7 +88,9 @@ function Contacts() {
         </div>
         <form ref={form} onSubmit={sendEmail} name='form'>
           <div className="item">
-         
+             
+            
+
              <label htmlFor="Nom">Nom</label>  <pre></pre>
              {errors.Name&& <span style={{color:"red"}}>{errors.Name}</span>}
              <input type="text" name="Name" id="" placeholder='Entrez votre nom' onChange={handleInput} />
