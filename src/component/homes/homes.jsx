@@ -91,7 +91,7 @@ const handlPause=()=>{
         </div>
     </div>
     <div className=' part3 custom-btn btn-cv '>
-        <a  href='#About'>En savoir plus</a>
+        <a href='#about'>En savoir plus</a>
     </div>
     </div>
 
