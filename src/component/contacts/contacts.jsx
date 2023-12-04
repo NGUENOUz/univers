@@ -92,18 +92,18 @@ function Contacts() {
             
 
              <label htmlFor="Nom">Nom</label>  <pre></pre>
-             {errors.Name&& <span style={{color:"red"}}>{errors.Name}</span>}
-             <input type="text" name="Name" id="" placeholder='Entrez votre nom' onChange={handleInput} />
+             <span> {errors.Name&& <span style={{color:"red"}}>{errors.Name}</span>}
+             <input type="text" name="Name" id="" placeholder='Entrez votre nom' onChange={handleInput} /></span>
           </div>
           <div className="item">
 
              <label htmlFor="Nom">Email</label>   <pre></pre>  
-          {errors.Email&& <span style={{color:"red"}}>{errors.Email}</span>}
+              <span> {errors.Email&& <span style={{color:"red"}}>{errors.Email}</span>}</span>
              <input type="text" name="Email" id="" placeholder='Entrez votre email'  onChange={handleInput}/>
          </div>
          <div className="item">
              <label htmlFor="message">Message</label>  <pre></pre> 
-             {errors.Message&& <span style={{color:"red"}}>{errors.Message}</span>}
+           <span>  {errors.Message&& <span style={{color:"red"}}>{errors.Message}</span>}</span>
              <textarea name="Message" id="" cols="30" rows="10"  onChange={handleInput} ></textarea>
         </div>   
              <button type='submit' className='custom-btn btn-cv' ><pre></pre>Envoyer<pre></pre></button>
