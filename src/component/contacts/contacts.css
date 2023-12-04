@@ -74,6 +74,7 @@ input,textarea:focus{
 }
 input{
     padding: 3%;
+    width: 90%;
     border: none;
     border-radius: 12px;
     box-shadow: rgba(150, 148, 148, 0.231) 0px 10px 30px 4px;
@@ -119,7 +120,10 @@ textarea{
     flex-direction: column;
     width: 100%;
     height: auto;
-    margin-left: 7%;
+    margin-left: 10%;
+}
+.Contact-infos .detail{
+    padding-left: 3%;
 }
 form{
     margin-left: -5%;

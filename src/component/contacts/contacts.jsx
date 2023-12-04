@@ -41,6 +41,7 @@ function Contacts() {
        .then((result) => {
            console.log(result.text);
            alert('Message envoyer ')
+           form.current.reset;
        }, (error) => {
            console.log(error.text);
        });

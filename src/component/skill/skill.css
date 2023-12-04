@@ -451,7 +451,7 @@ width: 40%;
 
   }
   .box{
-    margin-left: -25%;
+    margin-left: -1%;
   }
 
  }
@@ -461,7 +461,7 @@ width: 40%;
   .box {
     overflow: hidden;
     height: 300px;
-  right: 15%;
+  right: 1%;
     width: 300px;
   }
   .box .group {
@@ -507,6 +507,16 @@ width: 40%;
     top:49%;
     width: 30px;
   }
+  .box .ellipse-4 {
+  
+    left: 7%;
+    width: 60px;
+    height: 60px;
+    top: -30%;
+   
+  
+  }
+
   .box .ellipse-5 {
     height: 30px;
     left: 60%;

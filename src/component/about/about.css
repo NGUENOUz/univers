@@ -192,6 +192,9 @@ text-align: center;
   #about{
     padding-top: 30%;
   }
+  .about-droite h1{
+    font-size: 30px;
+  }
   .about-container{
     padding-top: 3%;
     flex-direction: column;
@@ -263,6 +266,7 @@ text-align: center;
   .cart-info {
     flex-direction: column;
     flex-wrap: wrap;
+    height: auto;
 
 
   }
@@ -277,4 +281,15 @@ text-align: center;
   .info-plus{
     padding-top: 14%;
   }
+}
+
+
+@media screen and (max-width: 900px) {
+
+
+  .info-plus .cart-info .cart{
+  height: auto;
+  padding: 2%;
+   
+ }
 }
