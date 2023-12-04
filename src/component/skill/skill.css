@@ -568,3 +568,12 @@ width: 40%;
 
 
 }
+@media screen and (max-width: 360px) {
+
+    form{
+      width: 70%;
+  
+      padding-left: 10%;
+      padding-right: 3%;
+    }
+}
