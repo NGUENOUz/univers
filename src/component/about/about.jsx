@@ -24,7 +24,7 @@ function About() {
           <img src="../assets/me.png" alt="" className='profil2'  data-aos="fade-right"/>
         </div>
         <div className="about-droite"data-aos="fade-right">
-             <h1 style={{fontSize:"60px"}}>About Me</h1>
+             <h1 >About Me</h1>
              <p>Hello, I’m a wilfried, web-developer based on Douala. I have rich experience in
                    web site design & building and customization. Also I am good at</p>
 

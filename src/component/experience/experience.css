@@ -225,7 +225,19 @@
      
        
     }
+    #experience{
+        margin-left: 4%;
+    }
+    #experience-title{
+        margin-left: 5%;
+    }
     
 
     
+}
+@media(max-width:900px)
+{
+    .experience{
+        margin-left: -8%;
+    }
 }

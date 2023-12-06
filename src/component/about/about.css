@@ -25,6 +25,7 @@
     justify-content: left;
 
 }
+.about-droite h1{font-size: 60px;}
 .langage-list{
     display:  flex;
     flex-direction: row;
@@ -186,11 +187,10 @@ text-align: center;
 }
 
 
-
-
 @media screen and (max-Width:428px) {
   #about{
     padding-top: 30%;
+    margin-left: -4%;
   }
   .about-droite h1{
     font-size: 30px;
@@ -219,7 +219,8 @@ text-align: center;
     display: none;
   }
   .btn-cv{
-    margin-left: 10%;
+    margin-left: 2%;
+    padding: 3%;
     background: var(--vert1);
     background: linear-gradient(0deg,  #f59505 0%, #f59505 100%);
     color: #fff;
@@ -275,7 +276,7 @@ text-align: center;
     max-width:100%;
     height: auto;
     padding: 3%;
-    margin-left: 5%;
+    margin-left: 8%;
   }
  
   .info-plus{

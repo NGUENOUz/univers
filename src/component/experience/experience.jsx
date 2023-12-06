@@ -55,8 +55,8 @@ function Experience() {
                           </div>
                          </div>
                     </div>      
-                  <div class="experience padd-15">
-                    <h3 class="title">Experience</h3>
+                  <div class="experience padd-15" id='experience'>
+                    <h3 class="title" id='experience-title'>Experience</h3>
 
 
                     <div class="row">
