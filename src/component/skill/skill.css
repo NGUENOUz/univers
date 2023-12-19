@@ -113,7 +113,28 @@ width: 40%;
     
 } */
 
+/* partie pour les compétences professionel */
 
+#Skill h1{
+  font-size: 60px;
+  padding-top: 6%;
+  text-align: center;
+  align-items: center;
+}
+
+.skills-container .gauche{
+
+  line-height: 250%;
+}
+
+.skills-container .gauche ul{
+
+  margin-left: -8%;
+  
+}
+ .gauche ul li span{
+   font-weight: 600;
+ }
 
 
 /* Partie pour le cercle  */
@@ -304,7 +325,7 @@ width: 40%;
   
 /* finde la partie pour le cercle   */
 
-.skills{
+.skills-container{
     display: flex;
     justify-content: space-between;
     padding: 2%;
@@ -313,11 +334,25 @@ width: 40%;
     text-align: center;
     align-items: center;
     padding-top: 4%;
+    
 }
 
-.skills .gauche{
 
+.skills-container .gauche{
+  
+  text-align: left;
+  list-style: none;
 }
+.skills-container .gauche li{
+  
+  text-align: left;
+  list-style: none;
+}
+.skills-container .gauche img{
+  width: 15px;
+  height: 15px;
+}
+
 .skills .gauche h1{
     font-size: 60px;
     font-weight: bold;
@@ -457,6 +492,14 @@ width: 40%;
  }
 
  @media screen and (max-width: 428px) {
+  .skills-container{
+    display: flex;
+    flex-direction: column;
+  }
+  .skills-container .gauche{
+   display: flex;
+   flex-direction: column;
+  }
 
   .box {
     overflow: hidden;

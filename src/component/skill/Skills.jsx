@@ -3,6 +3,7 @@ import { useState } from 'react'
 import Hot from '../data/hot_projet.jsx'
 import './skill.css'
 import './slide.css'
+import Filter from '../filterData/filterData.jsx'
 
 
 function Skills() {
@@ -64,7 +65,7 @@ function Skills() {
                         <p className='hot-description'>{Hot[index].description}</p>
 
                         <div className=" custom-btn btn-cv">
-                          <a href={Hot[index].lien} style={{textDecoration:"none",color:"white"}}>Plus de Détails</a>
+                          <a href={Hot[index].lien} style={{textDecoration:"none",color:"white"}}>More details</a>
                         </div>
               </div>
                       </div>
@@ -80,28 +81,41 @@ function Skills() {
                  
                </div>
 
-
+                  <div className="allProject">
+                  
+                     
+                   
+                  </div>
         </section>
 
       <section className="skills" id='Skill'>
-         
+          <h1>My skills</h1>
        
-          <div className="gauche">
-            <h1>Mes compétences </h1>
-            <h3>professionel</h3>
-            <p className="">
-                  Autres que mes connaissances techniques , je suis également 
-                   organiser
-                   ,pontuel
-                   ,respecteux
-                   ,travailleur 
-                   
-                </p>
+        <div className="skills-container">
+        <div className="gauche">
+            <h3>soft skills</h3>
+
+            <p className=""> Here are some of my soft skills </p>
+            <ul>
+              <li> <img src="./assets/etoile.png" alt="" />Communication : <span> ability to communicate effectively with customers, colleagues and other stakeholders. </span></li>
+
+              <li> <img src="./assets/etoile.png" alt="" />Collaboration : <span> ability to work effectively in a team, sharing information and solving problems together. </span></li>
+
+              <li> <img src="./assets/etoile.png" alt="" />Autonom :<span> ability to work independently and manage time effectively.</span></li>
+
+              <li> <img src="./assets/etoile.png" alt="" />Creativity : <span> ability to generate new and innovative ideas.</span></li>
+              
+              <li> <img src="./assets/etoile.png" alt="" />Analysis : <span> ability to collect, analyze and interpret data.</span></li>
+              
+              <li> <img src="./assets/etoile.png" alt="" />Adaptability : <span> ability to adapt to change and new situations.</span></li>
+              
+
+            </ul>
           </div>
 
 
           <div className="droite">
-          <h3>Technique</h3>
+          <h3>Technical skills</h3>
           <div className="box">
       <div className="group">
         <div className="overlap">
@@ -114,10 +128,10 @@ function Skills() {
               <div className="div">
                 <img className="ellipse-4 " alt="Ellipse" src="https://media.giphy.com/media/nTByLbm6g2Q9xO5aIB/giphy.gif" />
                 <p className="text-wrapper">
-                  Je dispose encore de plus de compétences techniques ,
-                   que seul les chanceux qui 
-                   travaillerons avec moi aurons le plaisir 
-                   de les découvrir 
+                I still have more technical skills ,
+                   that only the lucky ones who 
+                   work with me will have the pleasure 
+                   of discovering them
                 </p>
               </div>
             </div>
@@ -134,6 +148,7 @@ function Skills() {
       </div>
     </div>
           </div>
+        </div>
       </section>
   </>
   )

@@ -20,13 +20,12 @@ function Headers() {
       <div className="part-gauche">
   
      <ul>
-        <li><a href="Acceuil" >Acceuil</a></li>
-        <li><a href="#about">A propos</a></li>
+        <li><a href="Acceuil">Home</a></li>
+        <li><a href="#about">About</a></li>
         <li><a href="#Project">Projets</a></li>
         <li><a href="#Skill">Competences</a></li>
-        <li><a href=""className='Logo'>WD</a></li>
-        <li><a href="#Exp">Expérience</a></li>
-        <li><a href="">Temoignage</a></li>
+        <li><a href="#Exp">journey</a></li>
+        <li><a href="">Testimonial</a></li>
         <li><a href="">Blog</a></li>
         <li><a href="#contacts">Contact</a></li>
       </ul>
@@ -48,13 +47,13 @@ function Headers() {
    <header>
     <nav>
       <ul className='list'>
-        <li><a href="#Acceuil" >Acceuil</a></li>
-        <li><a href="#about">propos</a></li>
+        <li><a href="#Acceuil" >Home</a></li>
+        <li><a href="#about">About </a></li>
         <li><a href="#Project">Projets</a></li>
         <li><a href="#Skill">Competences</a></li>
         <li><a href=""className='Logo'>WD</a></li>
-        <li><a href="#Exp">Expérience</a></li>
-        <li><a href="">Temoignage</a></li>
+        <li><a href="#Exp"> journey </a></li>
+        <li><a href="">Testimonial</a></li>
         <li><a href="">Blog</a></li>
         <li><a href="#contacts">Contact</a></li>
       </ul>
@@ -67,7 +66,7 @@ function Headers() {
          </div>
          {menuOPen && <OptionMenu />}
       </div>
-      <li><a href=""className='Logo'>WD</a></li>
+      <li><a href=""className='Logo'>WD</a></li>  
     </div>
     </nav>
    </header>
