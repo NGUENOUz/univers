@@ -4,6 +4,12 @@ import './homes.css'
 import {useTypewriter , Cursor} from 'react-simple-typewriter';
 import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
+import About from '../about/about';
+import Skills from '../skill/Skills';
+import Experience from '../experience/experience';
+import Contacts from '../contacts/contacts';
+import Footer from '../footer/footer';
+import Temoignage from '../Temoignage/temoignage';
 
 function Homes() {
 
@@ -75,6 +81,9 @@ const handlPause=()=>{
 
 
   return (
+    <>
+ <Headers/>  
+   
 <section className='homes' id='Acceuil'>
    <div className="homes-container">
    <div className="left">
@@ -125,7 +134,20 @@ const handlPause=()=>{
         </div>
     </div>
    </div>
+
+
+
+   
 </section>
+
+    <About/> 
+    <Skills/> 
+    <Experience/>
+    <Temoignage/>
+    <Contacts/>
+    <Footer/>
+
+</>
   )
 }
 

@@ -1,0 +1,41 @@
+.temoignage{
+    width: 100%;
+    height: 800px;
+    text-align: center;
+    
+    background: #01031a;
+    
+
+    h1{
+        font-size: 60px;
+        font-weight: 900;
+        display: flex;
+        justify-content: center;
+        color:  white;
+       
+    }
+
+   
+    .carte-container{
+      display: flex;
+      justify-content: space-between;
+      padding: 5%;
+       
+        .cercle{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: linear-gradient(to top left, #ff00ff 14%, #000099 87%);
+            margin-top: 90%;
+            display: flex;
+            position: relative;
+        }
+        .cart{
+            width: 300px;
+            height: 300px;
+            border-radius: 12px;
+            background-color: rgba(236, 227, 227, 0.116);
+        }
+    }
+}
+

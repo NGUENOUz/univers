@@ -4,6 +4,7 @@ import Hot from '../data/hot_projet.jsx'
 import './skill.css'
 import './slide.css'
 import Filter from '../filterData/filterData.jsx'
+import Pagination from '../filterData/pagination.jsx'
 
 
 function Skills() {
@@ -59,7 +60,7 @@ function Skills() {
                      </div> 
 
                      <div className="hot-droite">
-                        <p className='categorie'>{Hot[index].categorie}</p>
+                        <p className='categorie'>{Hot[index].category}</p>
                         <h2 className='hot-titre'>{Hot[index].titre}</h2>
                         
                         <p className='hot-description'>{Hot[index].description}</p>
@@ -82,7 +83,7 @@ function Skills() {
                </div>
 
                   <div className="allProject">
-                  
+                  <Pagination/>
                      
                    
                   </div>

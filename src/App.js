@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homes from './component/homes/homes'
 import About from './component/about/about'
 import Contacts from './component/contacts/contacts'
@@ -15,6 +16,7 @@ import CountUp from 'react-countup';
 import ScrollTrigger from 'react-scroll-trigger';
 import { useState } from 'react'
 import { useEffect } from 'react'
+import NoPage from './component/PageError/noPage'
 
 
 
@@ -51,14 +53,19 @@ const App = () => {
 
   return (
     <div>
-    {isLoading &&  <Loader/> }
-    <Headers/>
-    <Homes/>
-    <About/> 
-    <Skills/> 
-    <Experience/>
-    <Contacts/>
-    <Footer/>
+   
+  
+
+   <BrowserRouter>
+      <Routes>
+        <Route >
+          <Route index element={<Homes />} />
+          <Route path="/Contact" element={<Contacts />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
+
+    
     </div>
   )
 }

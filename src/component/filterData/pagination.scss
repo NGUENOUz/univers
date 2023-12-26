@@ -1,0 +1,130 @@
+
+
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    margin-bottom: 12%;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    color: black;
+  }
+
+  .flip-card-front	img{
+    width: 300px;
+    height: 300px;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transform: rotateY(180deg);
+    padding: 2%;
+    text-align: left;
+    width: 100%;
+    height: auto;
+    h1{
+      font-size: 30px;
+      text-align: center;
+    }
+    p{
+      color: black;
+    }
+
+     .btn-cv{
+      padding: 1%;
+      text-align: center;
+      align-items: center;
+      display: flex;
+     
+
+      a{
+        width: 100%;
+        display: flex;
+        color: white;
+        text-decoration: none;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        padding: 4%;
+      }
+    }
+  }
+
+
+
+
+  // partie pour la nav de mon filtre 
+
+  h2{
+    text-align: center;
+    padding-top:2% ;
+  }
+
+  .projet-pagination{
+
+    margin-left: 9%;
+    width: 82%;
+
+    .filter-project{
+        display: flex;
+        flex-direction: row;
+        padding: 1%;
+    
+
+        .filter-btn{
+            padding: 1%;
+            border-radius: 8px;
+            border: none;
+            background: transparent;
+            cursor: pointer;
+            box-shadow: 2px 2px 9px rgba(73, 73, 73, 0.226);
+              
+        } 
+        
+:hover,:focus,:active{
+    background: orange;
+    color: white;
+
+}
+
+    }
+
+    .filter-container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+    }
+  
+  }
+
+  
+

@@ -66,7 +66,7 @@ function Contacts() {
 
 
   return (
-    <div className='Contacts' id='contacts'>
+    <section className='Contacts' id='contacts'>
 
         <h1>Contactez moi</h1>
         <h3>Je répond immédiatement à vos message </h3>
@@ -110,7 +110,7 @@ function Contacts() {
         </form>
        </div>
       
-    </div>
+    </section>
   )
 }
 

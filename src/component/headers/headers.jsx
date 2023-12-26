@@ -1,4 +1,5 @@
 import React from 'react';
+import { Outlet, Link } from "react-router-dom";
 import { useState ,useEffect,useRef } from 'react';
 import './headers.css'
 function Headers() {
@@ -28,6 +29,7 @@ function Headers() {
         <li><a href="">Testimonial</a></li>
         <li><a href="">Blog</a></li>
         <li><a href="#contacts">Contact</a></li>
+     
       </ul>
   
       </div>
@@ -56,6 +58,7 @@ function Headers() {
         <li><a href="">Testimonial</a></li>
         <li><a href="">Blog</a></li>
         <li><a href="#contacts">Contact</a></li>
+        <li>  <Link to="/contact">page</Link></li>
       </ul>
       <div className="mobile-header">
       <div className="menus-gauche" onClick={toggleMenu}>
