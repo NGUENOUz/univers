@@ -6,6 +6,8 @@
     height: 200px;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     margin-bottom: 12%;
+    border-radius: 12px;
+    
   }
   
   /* This container is needed to position the front and back side */
@@ -40,6 +42,7 @@
   .flip-card-front	img{
     width: 300px;
     height: 300px;
+    border-radius: 12px;
   }
   
   /* Style the back side */
@@ -118,6 +121,7 @@
     }
 
     .filter-container{
+      margin-top: 2%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
@@ -125,6 +129,24 @@
     }
   
   }
+
+  .filter-container :nth-child(2){
+     margin-top: 4%;
+  }
+  .filter-container :nth-child(4){
+    margin-top: -4%;
+ }
+ .filter-container :nth-child(5){
+  margin-left: -2%;
+}
+.filter-container :nth-child(6){
+  margin-top: -2%;
+}
+
+ 
+
+
+  
 
   
 

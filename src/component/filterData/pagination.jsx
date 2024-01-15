@@ -7,14 +7,11 @@ const Pagination = () => {
     // declaration de l'etat  des composants 
 
     const [currentPage , setCurrentPage]=useState(1);
-    const recordsPerPage= 5;
+    const recordsPerPage= 6;
     const lastindex= currentPage* recordsPerPage ;
     const firstIndex=lastindex- recordsPerPage;
 
-    const record= Hot.slice(firstIndex , lastindex);
-     const npage= Math.ceil(Hot.length/recordsPerPage);
-    
-     const numbers = [...Array(npage+1).keys()].slice(1) ;
+
 
 
 //      const [filterTags, setFilterTags] = useState([])
@@ -34,6 +31,30 @@ const Pagination = () => {
 
 
   const [filteredData, setFilteredData] = useState(Hot); // Initialisation avec toutes les données
+
+  const record= filteredData.slice(firstIndex , lastindex);
+  const npage= Math.ceil(filteredData.length/recordsPerPage);
+ 
+  const numbers = [...Array(npage+1).keys()].slice(1) ;
+
+  // fonctions pour la pagination 
+
+  function changeCPage(id){
+    setCurrentPage(id)
+  
+  }
+  function nextPage(){
+    if(currentPage!==npage){
+      setCurrentPage(currentPage+1);
+    }
+  }
+  function prePage(){
+    if(currentPage!==1){
+      setCurrentPage(currentPage-1);
+    }
+  }
+
+  // fin de la fonction
 
   const handleFilterClick = (event) => {
     if (event) {
@@ -93,7 +114,7 @@ const Pagination = () => {
             </div>
 
         <div className="filter-container">
-          {filteredData.map((node)=>(
+          {record.map((node)=>(
 
               <div className="flip-card">
               <div className="flip-card-inner">
@@ -113,6 +134,29 @@ const Pagination = () => {
           
           )}
         </div>
+{/*  partie pour la bar de pagination  */}
+
+      <div className='navPage'>
+        <ul className='pages'>
+          <li className='pageItem'>
+            <a href="#" className='pageLink'
+            onClick={prePage}>Pre</a>
+          </li>
+          {
+            numbers.map((n,i)=>(
+              <li className={`pageItem ${currentPage===n ?'active':''}`} key={i}>
+              <a href="#" className='pageItem'
+              onClick={()=>changeCPage(n)}> {n}</a>  
+               </li>
+            ))
+          }
+
+<li className='pageItem'>
+            <a href="#" className='pageLink'
+            onClick={nextPage}>Next</a>
+          </li>
+        </ul>
+      </div>
      </div>
       
     </div>
@@ -120,3 +164,5 @@ const Pagination = () => {
 }
 
 export default Pagination
+
+
