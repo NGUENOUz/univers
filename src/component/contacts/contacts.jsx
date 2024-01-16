@@ -68,8 +68,8 @@ function Contacts() {
   return (
     <section className='Contacts' id='contacts'>
 
-        <h1>Contactez moi</h1>
-        <h3>Je répond immédiatement à vos message </h3>
+        <h1 style={{color:'white'}}>Contactez moi</h1>
+        <h3 style={{color:'var(--text-black-700)'}}>Je répond immédiatement à vos message </h3>
 
        <div className="container">
        <div className="Contact-infos">
@@ -91,18 +91,18 @@ function Contacts() {
              
             
 
-             <label htmlFor="Nom">Nom</label>  <pre></pre>
+             <label htmlFor="Nom" style={{color:'var(--text-black-700)'}}>Nom</label>  
              <span> {errors.Name&& <span style={{color:"red"}}>{errors.Name}</span>}
              <input type="text" name="Name" id="" placeholder='Entrez votre nom' onChange={handleInput} /></span>
           </div>
           <div className="item">
 
-             <label htmlFor="Nom">Email</label>   <pre></pre>  
+             <label htmlFor="Nom" style={{color:'var(--text-black-700)'}}>Email</label>   
               <span> {errors.Email&& <span style={{color:"red"}}>{errors.Email}</span>}</span>
              <input type="text" name="Email" id="" placeholder='Entrez votre email'  onChange={handleInput}/>
          </div>
          <div className="item">
-             <label htmlFor="message">Message</label>  <pre></pre> 
+             <label htmlFor="message" style={{color:'var(--text-black-700)'}}>Message</label>  
            <span>  {errors.Message&& <span style={{color:"red"}}>{errors.Message}</span>}</span>
              <textarea name="Message" id="" cols="30" rows="10"  onChange={handleInput} ></textarea>
         </div>   

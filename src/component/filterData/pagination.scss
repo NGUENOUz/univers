@@ -87,7 +87,9 @@
   }
 
 
-
+button{
+  background: transparent;
+}
 
   // partie pour la nav de mon filtre 
 
@@ -113,7 +115,6 @@
             padding: 1%;
             border-radius: 8px;
             border: none;
-            background: transparent;
             cursor: pointer;
             box-shadow: 2px 2px 9px rgba(73, 73, 73, 0.226);
             color: white;
@@ -180,6 +181,10 @@
   border-radius: 12px;
   background: linear-gradient(to bottom right, #000066 0%, #6600cc 97%);
 
+}
+.Active{
+  background: linear-gradient(to bottom right, #000066 0%, #6600cc 97%);
+color: white;
 }
 
   

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Hot, { Marketing, web } from '../data/hot_projet';
 import './pagination.scss'
 
@@ -36,6 +36,9 @@ const Pagination = () => {
   const npage= Math.ceil(filteredData.length/recordsPerPage);
  
   const numbers = [...Array(npage+1).keys()].slice(1) ;
+  
+  const [btnActive , setBtnActive]=useState();
+
 
   // fonctions pour la pagination 
 
@@ -56,6 +59,10 @@ const Pagination = () => {
 
   // fin de la fonction
 
+useEffect(()=>{
+  setBtnActive(btnActive);
+})
+   
   const handleFilterClick = (event) => {
     if (event) {
     
@@ -73,6 +80,9 @@ const Pagination = () => {
       setFilteredData(
        Hot
       );
+      setBtnActive(!btnActive);
+
+     
     }
   };
 
@@ -82,6 +92,7 @@ const Pagination = () => {
       setFilteredData(
        Marketing
       );
+      setBtnActive(!btnActive);
     }
   };
 
@@ -95,7 +106,7 @@ const Pagination = () => {
         <div className="projet-pagination">
             <div className="filter-project">
                
-             <button value="Hot" onClick={handleFilterAll} className='filter-btn '  >
+             <button value="Hot" onClick={handleFilterAll} className={`filter-btn ${!btnActive?'Active':''}`}  >
                 All project
              </button>
 
