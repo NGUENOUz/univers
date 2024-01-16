@@ -1,4 +1,5 @@
 #Project{
+ background: rgb(1, 3, 20);
 
 }
 .feature-projet{
@@ -12,7 +13,7 @@
     font-weight: bold;
     text-align: center;
     padding-top: 6%;
-    color: black;
+    color: white;
     font-size: 60px;
  
 }
@@ -20,8 +21,8 @@
 .hot-project{
 
     width: 80%;
-    background: #e09f9f7c;
-    background: #108cb924;
+    background:transparent;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     height: 50%;
     margin-left: 9%;
     padding: 1%;
@@ -38,6 +39,8 @@
     width: 30px;
     height: 30px;
     cursor: pointer;
+    box-shadow: 2px 2px 9px white;
+    border-radius: 50%;
 }
 
 .hot-container{
@@ -97,6 +100,8 @@ box-sizing: border-box;
   font-weight: bold;
   font-size: 29px;
   transition: ease-in-out all 2s; */
+  text-align: left;
+  color: white;
 }
 
 

@@ -94,21 +94,20 @@ function Skills() {
        
         <div className="skills-container">
         <div className="gauche">
-            <h3>soft skills</h3>
+            <h3 style={{color:'var(--text-black-700)'}}>soft skills</h3>
 
             <p className=""> Here are some of my soft skills </p>
             <ul>
-              <li> <img src="./assets/etoile.png" alt="" />Communication : <span> ability to communicate effectively with customers, colleagues and other stakeholders. </span></li>
+              <li style={{color:'white'}}> <img src="./assets/etoile.png" alt="" />Communication : <span style={{color:'var(--text-black-700)'}}> ability to communicate effectively with customers, colleagues and other stakeholders. </span></li>
 
-              <li> <img src="./assets/etoile.png" alt="" />Collaboration : <span> ability to work effectively in a team, sharing information and solving problems together. </span></li>
+              <li style={{color:'white'}}>  <img src="./assets/etoile.png" alt="" />Collaboration : <span style={{color:'var(--text-black-700)'}}> ability to work effectively in a team, sharing information and solving problems together. </span></li>
 
-              <li> <img src="./assets/etoile.png" alt="" />Autonom :<span> ability to work independently and manage time effectively.</span></li>
+              <li style={{color:'white'}}>  <img src="./assets/etoile.png" alt="" />Autonom :<span style={{color:'var(--text-black-700)'}}> ability to work independently and manage time effectively.</span></li>
 
-              <li> <img src="./assets/etoile.png" alt="" />Creativity : <span> ability to generate new and innovative ideas.</span></li>
+              <li style={{color:'white'}}>  <img src="./assets/etoile.png" alt="" />Creativity : <span style={{color:'var(--text-black-700)'}}> ability to generate new and innovative ideas.</span></li>
+              <li style={{color:'white'}}>  <img src="./assets/etoile.png" alt="" />Analysis : <span style={{color:'var(--text-black-700)'}}> ability to collect, analyze and interpret data.</span></li>
               
-              <li> <img src="./assets/etoile.png" alt="" />Analysis : <span> ability to collect, analyze and interpret data.</span></li>
-              
-              <li> <img src="./assets/etoile.png" alt="" />Adaptability : <span> ability to adapt to change and new situations.</span></li>
+              <li style={{color:'white'}}>  <img src="./assets/etoile.png" alt="" />Adaptability : <span style={{color:'var(--text-black-700)'}}>  ability to adapt to change and new situations.</span></li>
               
 
             </ul>
@@ -116,7 +115,7 @@ function Skills() {
 
 
           <div className="droite">
-          <h3>Technical skills</h3>
+          <h3 style={{color:'var(--text-black-700)'}} className='technique' id='technique'>Technical skills</h3>
           <div className="box">
       <div className="group">
         <div className="overlap">
@@ -128,12 +127,7 @@ function Skills() {
             <div className="overlap-group-wrapper">
               <div className="div">
                 <img className="ellipse-4 " alt="Ellipse" src="https://media.giphy.com/media/nTByLbm6g2Q9xO5aIB/giphy.gif" />
-                <p className="text-wrapper">
-                I still have more technical skills ,
-                   that only the lucky ones who 
-                   work with me will have the pleasure 
-                   of discovering them
-                </p>
+             
               </div>
             </div>
           </div>

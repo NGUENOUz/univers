@@ -7,9 +7,57 @@ const Temoignage = () => {
       <section className='temoignage' id='temoignage'>
         <h1>Testimonial</h1>
          <div className="carte-container">
-             <div className="cart"></div>
-             <div className="cart"></div>
-             <div className="cart"></div>
+             <div className="cart">
+               <div className="profil">
+                <img src="./assets/profil.png" alt="" />
+               </div>
+
+               <div className="comment">
+                <h3><span>"</span>
+                Junior ferdinand 
+                </h3>
+                <h3>
+                j'approuve la qualité de son travail ...
+                </h3>
+               </div>
+
+             </div>
+             <div className="cart">
+               <div className="profil">
+                <img src="./assets/profil.png" alt="" />
+               </div>
+
+               <div className="comment">
+                <h3><span>"</span>
+                Junior ferdinand 
+                </h3>
+                <h3>
+                j'approuve la qualité de son travail ...
+                </h3>
+               </div>
+
+             </div>
+             <div className="cart">
+               <div className="profil">
+                <img src="./assets/profil.png" alt="" />
+               </div>
+
+               <div className="comment">
+                <h3><span>"</span>
+                Junior ferdinand 
+                </h3>
+                <h3>
+                j'approuve la qualité de son travail ...
+                </h3>
+               </div>
+
+             </div>
+         </div>
+
+         <div className="cercles-container">
+          <span></span>
+        
+          {/* <span></span> */}
          </div>
         <div className="container">
 

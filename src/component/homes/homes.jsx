@@ -67,9 +67,9 @@ const handlPause=()=>{
 
 
     const [typeEffect] = useTypewriter({
-        words: [' Web Developer','blogeur','Marketteur','UI/UX Designer','freelancer'],
+        words: ['freelancer','digital creator'],
         loop:{},
-        typeSpeed:70,
+        typeSpeed:100,
         deleteSpeed:70
       })
     
@@ -81,7 +81,7 @@ const handlPause=()=>{
 
 
   return (
-    <>
+    <div style={{background:'   background: rgb(1, 3, 20);'}}>
  <Headers/>  
    
 <section className='homes' id='Acceuil'>
@@ -91,8 +91,8 @@ const handlPause=()=>{
    </div>
     <div className="center">
     <div className="part1" data-aos="fade-left">
-        <h1> Hello ! my name is <span>Wilfried NGUENOU DZOMEU</span></h1>
-        <h1>{name}{typeEffect} <Cursor/></h1>
+        <h1 style={{color:'#504e70'}}> Hello ! my name is <span>Wilfried NGUENOU DZOMEU</span></h1>
+        <h1 style={{color:'#504e70'}}>{name}{typeEffect} <Cursor/></h1>
     </div>
     <div className="part2 " data-aos="fade-left">
         <div className="semi-cercle">
@@ -114,7 +114,7 @@ const handlPause=()=>{
             <img src="../assets/etoile.png" alt="note" />
         </div>
          <ScrollTrigger onEnter={()=>setConterOn(true)} onExit={()=>setConterOn(false)}>
-         <h2>+{counterOn && <CountUp start={0} end={50} delay={0} duration={4}></CountUp>}k Followers</h2>
+         <h2 style={{color:'white'}}>+{counterOn && <CountUp start={0} end={50} delay={0} duration={4}></CountUp>}k Followers</h2>
          </ScrollTrigger>
         </div>
 
@@ -147,7 +147,7 @@ const handlPause=()=>{
     <Contacts/>
     <Footer/>
 
-</>
+</div>
   )
 }
 

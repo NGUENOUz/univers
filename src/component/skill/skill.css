@@ -120,6 +120,7 @@ width: 40%;
   padding-top: 6%;
   text-align: center;
   align-items: center;
+  color: white;
 }
 
 .skills-container .gauche{
@@ -153,7 +154,10 @@ width: 40%;
     left: 0;
     top: 0;
     width: 498px;
-    background: var(--vert1);
+     background: transparent;
+     animation: 1s linear infinite alternate couleur-contour,
+     50s linear infinite tour ;
+
  
   
   }
@@ -223,6 +227,7 @@ width: 40%;
     width: 233px;
   }
   
+  
   .box .div {
   
     height: 176px;
@@ -239,6 +244,7 @@ width: 40%;
     top: 19px;
     width: 52px;
     border-radius: 50%;
+    display: none;
     
   }
   
@@ -253,6 +259,8 @@ width: 40%;
     position: absolute;
     top: 75px;
     width: 191px;
+    position: fixed;
+    animation: normal;
   }
   
   .box .ellipse-5 {
@@ -362,6 +370,15 @@ width: 40%;
   animation: 1s linear infinite alternate position,  5s linear infinite tour;
 }
 
+
+
+#technique{
+  display: flex;
+  margin-top: 18%;
+  margin-left: 15%;
+  position: absolute;
+
+}
 @keyframes position{
   from{
       transform: scale(0);
@@ -391,6 +408,7 @@ width: 40%;
     height: 396px;
   right: 45%;
     width: 398px;
+
   }
   .box .group {
    
@@ -499,6 +517,7 @@ width: 40%;
   .skills-container .gauche{
    display: flex;
    flex-direction: column;
+   font-size: 22px;
   }
 
   .box {

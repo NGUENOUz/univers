@@ -13,18 +13,18 @@ function About() {
         <div className="about-gauche">
           <div className="svg-top">
           <svg xmlns="http://www.w3.org/2000/svg" width="77" height="104" viewBox="0 0 77 104" fill="none">
-<path d="M0.885644 90.5541L8.24722 -4.84586e-05L18.1858 81.3371L76.2921 103.443L0.885644 90.5541Z" fill="var(--vert1)"/>
+<path d="M0.885644 90.5541L8.24722 -4.84586e-05L18.1858 81.3371L76.2921 103.443L0.885644 90.5541Z" fill="var(--text-black-700)"/>
 </svg>
 
 <svg xmlns="http://www.w3.org/2000/svg" width="91" height="85" viewBox="0 0 91 85" fill="none">
-<path d="M0 8L90.5 0L12 23.5L0 84.5V8Z" fill="var(--vert1)"/>
+<path d="M0 8L90.5 0L12 23.5L0 84.5V8Z" fill="var(--text-black-700)"/>
 </svg>
 
  </div>
           <img src="../assets/me.png" alt="" className='profil2'  data-aos="fade-right"/>
         </div>
         <div className="about-droite"data-aos="fade-right">
-             <h1 >About Me</h1>
+             <h1 style={{color:'white'}}>About Me</h1>
              <p>Hello, I’m a wilfried, web-developer based on Douala. I have rich experience in
                    web site design & building and customization. Also I am good at</p>
 
@@ -59,7 +59,7 @@ function About() {
 
 
       <div className="info-plus">
-        <h1>What I Do</h1>
+        <h1 style={{color:'white'}}>What I Do</h1>
         <div className="cart-info" data-aos="fade-right">
           <div className="cart">
             <img src="../assets/ui.png" alt="ui Desygn image" />

@@ -11,9 +11,11 @@
 *{
 
   font-family: 'poppin';
+
+
 }
 .app{
-  background: rgb(252, 251, 253);
+  background: rgb(1, 3, 20);
 }
 body::-webkit-scrollbar{
   width: 15px;

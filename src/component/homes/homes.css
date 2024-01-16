@@ -45,9 +45,10 @@
     margin-top: 6%;
     padding: 2%;
     width: 90%;
+    
 }
 .homes-container span{
-    color: #f59505;
+    color: white;
 }
 .homes-container h1{
     font-size: 30px;
@@ -55,6 +56,10 @@
 .homes{
     width: 100%;
     height: auto;
+    background: rgb(1, 3, 20);
+}
+#Acceuil{
+
 }
 .center{
     text-align: center;
@@ -76,7 +81,8 @@
     height: 350px;
     margin-top: 2%;
     padding: 1%;
-    background: #f59505;
+     background: linear-gradient(to bottom right, #000066 0%, #6600cc 97%);
+   
     border-radius: 50%;
     border-top-left-radius: 20%;
     border-top-right-radius: -30%;
@@ -90,6 +96,7 @@
     height: 100%;
    margin-top: -25%;
    border-radius: 50%;
+ 
    
 }
 .center .part3{
@@ -233,6 +240,7 @@ flex-direction: row;
 
 .part1 h1{
     font-size: 20px;
+    color:#504e70;
 }
 
 .part2 .semi-cercle{

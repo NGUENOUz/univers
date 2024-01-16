@@ -88,14 +88,14 @@ const Pagination = () => {
 
   return (
     
-    <div>
+    <div className='paginat'>
 
-        <h2> Explorez la liste de tout mes projets par catégories ici : </h2>
+        <h2 > Explore the list of all my projects by category here </h2>
 
         <div className="projet-pagination">
             <div className="filter-project">
                
-             <button value="Hot" onClick={handleFilterAll} className='filter-btn '>
+             <button value="Hot" onClick={handleFilterAll} className='filter-btn '  >
                 All project
              </button>
 
@@ -116,7 +116,7 @@ const Pagination = () => {
         <div className="filter-container">
           {record.map((node)=>(
 
-              <div className="flip-card">
+              <div className="flip-card" data-aos="zoom-in">
               <div className="flip-card-inner">
                <div className="flip-card-front">
                  <img src={node.image} alt="" />
@@ -140,7 +140,7 @@ const Pagination = () => {
         <ul className='pages'>
           <li className='pageItem'>
             <a href="#" className='pageLink'
-            onClick={prePage}>Pre</a>
+            onClick={prePage}>Preview</a>
           </li>
           {
             numbers.map((n,i)=>(

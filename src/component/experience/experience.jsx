@@ -4,7 +4,7 @@ import './experience.css'
 function Experience() {
   return (
     <div className='Exp' id='Exp'>
-            <h1>Mon parcour </h1>
+            <h1 style={{color:'white'}}> Mon parcour </h1>
 
                  <div class="row">
                   <div class="education padd-15">

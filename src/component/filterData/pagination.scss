@@ -1,5 +1,10 @@
 
-
+.paginat{
+  padding-top: 4%;
+  h2{
+    color: white;
+  }
+}
 .flip-card {
     background-color: transparent;
     width: 300px;
@@ -58,7 +63,7 @@
       text-align: center;
     }
     p{
-      color: black;
+      color: var(--text-black-700);
     }
 
      .btn-cv{
@@ -100,6 +105,8 @@
         display: flex;
         flex-direction: row;
         padding: 1%;
+
+
     
 
         .filter-btn{
@@ -109,11 +116,12 @@
             background: transparent;
             cursor: pointer;
             box-shadow: 2px 2px 9px rgba(73, 73, 73, 0.226);
+            color: white;
               
         } 
         
 :hover,:focus,:active{
-    background: orange;
+  background: linear-gradient(to bottom right, #000066 0%, #6600cc 97%);
     color: white;
 
 }
@@ -143,8 +151,36 @@
   margin-top: -2%;
 }
 
+ .navPage ul{
  
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 34%;
+  list-style: none;
+  
+  .pageItem{
+    list-style: none;
+    text-decoration: none;
+    padding: 2%;
+    color: white;
 
+  }
+  :active{
+    border-radius: 50%;
+    background: var(--text-black-700);
+  }
+
+ }
+.pageLink{
+  padding: 20%;
+  text-decoration: none;
+  font-size: 16px;
+  color: white;
+  border-radius: 12px;
+  background: linear-gradient(to bottom right, #000066 0%, #6600cc 97%);
+
+}
 
   
 
