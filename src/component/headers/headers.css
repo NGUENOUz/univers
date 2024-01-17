@@ -151,23 +151,39 @@ nav .Logo{
    }
  
    .options-menus .part-gauche{
-    width: 85%;
-    height: 100%;
-    align-items: center;
-    padding: 15%;
-    overflow: hidden;
+    width: 100%;
+    height: auto;
     display: flex;
-    flex-direction: column;
-    margin-top: 0%;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 2%;
+    padding-left: 30%;
+    /* padding: 15%; */
+    /* overflow: hidden; */
+   
+    /* margin-top: 0%; */
+  
 
    }
-   .options-menus .part-gauche ul{
-    margin-top: 15px;
+   .part-gauche ul{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+   }
+   /* .options-menus .part-gauche ul{
+    
     display: flex;
     flex-direction: column;
     text-align: left;
     width: 100%;
-    margin-top: -20%;
+  
+
    }
    .part-gauche li{
     text-align: left;
@@ -181,7 +197,7 @@ nav .Logo{
    .part-gauche li:hover{
     transform: translateX(12px);
     transition: ease-in-out 1s;
-    padding: -5%;
+    padding: -35%;
    }
    .part-gauche li a{
     text-decoration: none;
@@ -192,7 +208,7 @@ nav .Logo{
    }
    .part-gauche li a:hover{
  
-   }
+   } */
    .options-menus .part-droite{
      width: 20%;
      margin-right: 1.5%;
@@ -210,7 +226,7 @@ nav .Logo{
    .part-droite .close:hover{
     cursor: pointer;
     border-radius: 50%;
-    border: 1px dotted #07e25b;
+    border: 1px dotted var(--text-black-700);
     transition: ease-in-out 1s;
    }
    .mobile-header li{
@@ -229,4 +245,11 @@ nav .Logo{
 .Logo img{
     width: 100px;
     height: 30px;
+}
+@media screen and (max-width: 428px) {
+
+    .part-gauche ul{
+      
+        gap: 80px;
+       }
 }

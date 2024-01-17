@@ -21,14 +21,14 @@ function Headers() {
       <div className="part-gauche">
   
      <ul>
-        <li><a href="Acceuil">Home</a></li>
-        <li><a href="#about">About</a></li>
+     <li><a href="#Acceuil" >Home</a></li>
+        <li><a href="#about">About </a></li>
         <li><a href="#Project">Projets</a></li>
         <li><a href="#Skill">Competences</a></li>
-        <li><a href="#Exp">journey</a></li>
-        <li><a href="">Testimonial</a></li>
-        <li><a href="">Blog</a></li>
+        <li><a href="#Exp"> journey </a></li>
+        <li><a href="#Temoignage">Testimonial</a></li>
         <li><a href="#contacts">Contact</a></li>
+        <li>  <Link to="/Blog">Blog</Link></li>
      
       </ul>
   
@@ -56,9 +56,8 @@ function Headers() {
         <li><a href=""className='Logo'>WD</a></li>
         <li><a href="#Exp"> journey </a></li>
         <li><a href="#Temoignage">Testimonial</a></li>
-        <li><a href="">Blog</a></li>
         <li><a href="#contacts">Contact</a></li>
-        <li>  <Link to="/Blog">page</Link></li>
+        <li>  <Link to="/Blog">Blog</Link></li>
       </ul>
       <div className="mobile-header">
       <div className="menus-gauche" onClick={toggleMenu}>
