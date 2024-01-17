@@ -216,7 +216,8 @@
 }
 @media(max-width:428px)
 {  
-    .Exp{
+    h1{
+        font-size: 30px;
     }
     .row{
         flex-wrap: wrap;
