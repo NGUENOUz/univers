@@ -4,7 +4,7 @@ import './temoignage.scss'
 const Temoignage = () => {
   return (
     <div>
-      <section className='temoignage' id='temoignage'>
+      <section className='temoignage' id='Temoignage'>
         <h1>Testimonial</h1>
          <div className="carte-container">
              <div className="cart">

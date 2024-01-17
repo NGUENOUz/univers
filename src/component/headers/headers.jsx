@@ -55,10 +55,10 @@ function Headers() {
         <li><a href="#Skill">Competences</a></li>
         <li><a href=""className='Logo'>WD</a></li>
         <li><a href="#Exp"> journey </a></li>
-        <li><a href="">Testimonial</a></li>
+        <li><a href="#Temoignage">Testimonial</a></li>
         <li><a href="">Blog</a></li>
         <li><a href="#contacts">Contact</a></li>
-        <li>  <Link to="/contact">page</Link></li>
+        <li>  <Link to="/Blog">page</Link></li>
       </ul>
       <div className="mobile-header">
       <div className="menus-gauche" onClick={toggleMenu}>

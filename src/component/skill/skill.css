@@ -372,7 +372,7 @@ width: 40%;
 
 
 
-#technique{
+.technique{
   display: flex;
   margin-top: 18%;
   margin-left: 15%;
@@ -506,6 +506,18 @@ width: 40%;
   .box{
     margin-left: -1%;
   }
+  .skills-container{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .technique{
+   
+    margin-top: 28%;
+    margin-left: 22%;
+  
+  
+  }
 
  }
 
@@ -637,5 +649,9 @@ width: 40%;
   
       padding-left: 10%;
       padding-right: 3%;
+    }
+
+    .technique{
+      margin-top: 40%;
     }
 }

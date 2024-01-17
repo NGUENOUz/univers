@@ -18,8 +18,18 @@ function Homes() {
    const [isplay, setPlay]=useState(false);
    const [currentTime, setCurrentTime]=useState(0);
    const {duration,setDuration}=useState(0)
-
+   const [startAudio,setStartAudio]=useState();
+ 
+   
    const audioRef= useRef(null)
+
+   useEffect(() => {
+    if (startAudio) {
+      audioRef.current.play();
+      setPlay(false);
+    }
+  }, [startAudio]);
+
 
 
 // fonction pour determiner le temps net :  
@@ -126,11 +136,8 @@ const handlPause=()=>{
                 { !isplay ? <Play/>: <Stop/>}
                  </button>
 
-                 <audio src="./assets/musiqu.mp3" ref={audioRef} autoPlay loop></audio>
-
-                
-               
-            
+                 <audio src="./assets/musiqu.mp3" ref={audioRef} loop></audio>
+  
         </div>
     </div>
    </div>

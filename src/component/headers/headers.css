@@ -116,21 +116,21 @@ nav .Logo{
     width: 50px;
     height: 10px;
     margin-top: 2px;
-    background: rgb(15, 15, 15);
+    background: linear-gradient(to bottom right, #000066 0%, #6600cc 97%);
     border-radius: 4px;
    }
    .trait .trait2{
     width: 40px;
     height: 10px;
     background: transparent;
-    border: 1px solid rgb(21, 21, 21);
+    background: linear-gradient(to bottom right, #000066 0%, #6600cc 97%);
     border-radius: 4px;
    }
    .trait .trait3{
     width: 30px;
     height: 10px;
     background: transparent;
-    border: 1px solid rgb(14, 14, 14);
+    background: linear-gradient(to bottom right, #000066 0%, #6600cc 97%);
     border-radius: 4px;
    }
    .options-menus{

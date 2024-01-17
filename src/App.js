@@ -17,6 +17,7 @@ import ScrollTrigger from 'react-scroll-trigger';
 import { useState } from 'react'
 import { useEffect } from 'react'
 import NoPage from './component/PageError/noPage'
+import Blog from './component/blog/blog';
 
 
 
@@ -60,7 +61,7 @@ const App = () => {
       <Routes>
         <Route >
           <Route index element={<Homes />} />
-          <Route path="/Contact" element={<Contacts />} />
+          <Route path="/Blog" element={<Blog />} />
         </Route>
       </Routes>
     </BrowserRouter>
