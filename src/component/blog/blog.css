@@ -44,3 +44,11 @@ body::-webkit-scrollbar-thumb{
 } 
 
 
+@media screen and (max-Width:428px){
+    iframe{
+  
+        margin-right: -10%;
+    }
+}
+
+
