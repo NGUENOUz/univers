@@ -5,7 +5,7 @@ const Hot=[
       category: "Web Development",
         titre: "Digi Learn",
         description : "Digi learn est une application web de vente de formation en ligne , permettant à tout un chaqu'un d'achetter des formations dans le domaine de la tech , à moindre cout ",
-        image :"../assets/logo5.png",
+        image :"../assets/niv1.jpg",
         lien:'',
         tags: [
           {
@@ -65,7 +65,7 @@ const Hot=[
       category: "Desygn",
         titre: "Logo of one spar",
         description : "Digi learn est une application web de vente de formation en ligne , permettant à tout un chaqu'un d'achetter des formations dans le domaine de la tech , à moindre cout ",
-        image :"../assets/logo2.png",
+        image :"../assets/aff1.jpg",
         lien:"",
         tags: [
           {
@@ -93,7 +93,7 @@ const Hot=[
       category: "Web development",
         titre: "Wilfried DZomeu",
         description : "Ceci  est un site vitrine mettant en avant les compétences d'un freelanceur  ",
-        image :"../assets/portfolio.png",
+        image :"../assets/l.jpeg",
         lien:""
       },
       {

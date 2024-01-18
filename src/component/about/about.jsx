@@ -49,7 +49,7 @@ function About() {
             }}
             
             >
-                <span>Telecharger mon  Cv</span>
+                <span>Download my CV</span>
                 <img src="../assets/telechargement.png" alt="" />
             </button>
 
@@ -64,22 +64,23 @@ function About() {
           <div className="cart">
             <img src="../assets/ui.png" alt="ui Desygn image" />
             <h3>UI/UX DESYGN</h3>
-            <p>En tant que UI/UX desygner , je conçois les maquettes de site et application , je fais également dans la création des logo et affiches  </p>
+            <p>As a UI/UX designer, I create site and application mock-ups, logos and posters.</p>
           </div>
 
           <div className="cart">
             <img src="../assets/web_dev.png" alt="ui Desygn image" />
             <h3>WEB DEVELOPMENT</h3>
             <p className='cart-info-description'>
-              je développe des applications web , des sites vitrine , des applications multiplateforme et je fais aussi l'intégration des sites web
+            As a web developer, I work on showcase and e-commerce sites, maintaining and integrating existing solutions.
             </p>
           </div>
 
           <div className="cart">
             <img src="../assets/marketing.png" alt="ui Desygn image" />
-            <h3>MARKETING</h3>
+            <h3>Digital MARKETING</h3>
             <p>
-              Vous avez besoin d'un community manager , d'un brand ambassador , ou encore d'un apporteur d'affaire ,alors contactez moi 
+            
+Digital maestro crafting brands, igniting success with social, SEO & ads.
             </p>
           </div>
         </div>
