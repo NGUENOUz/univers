@@ -13,10 +13,10 @@ function Blog() {
         <div className="blog">
 
           <nav>
-            <div className="gauche">
+            <div className="g">
               <Link to="/">  <img src="./assets/back1.png" alt="icon" /></Link>
             </div>
-            <div className="droite">
+            <div className="d">
                Entrez dans mon univers pour mieux me découvrir 
             </div>
           </nav>

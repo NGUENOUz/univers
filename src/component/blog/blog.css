@@ -21,12 +21,12 @@ iframe{
   
     padding: 5%;
 }
-nav .gauche, .droite{
+ .blog nav .g, .d{
     padding: 10%;
  
 }
 
-.blog .droite img{
+.blog .d img{
     cursor: pointer;
 }
 

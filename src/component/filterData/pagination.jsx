@@ -47,9 +47,11 @@ const Pagination = () => {
   
   }
   function nextPage(){
+
     if(currentPage!==npage){
       setCurrentPage(currentPage+1);
     }
+    
   }
   function prePage(){
     if(currentPage!==1){
